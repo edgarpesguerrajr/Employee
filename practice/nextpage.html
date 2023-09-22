@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="nextpage.css" />
+    <script src="nextpage.js" defer></script>
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form action="#" class="form">
+      <div class="form-step form-step-active">
+        <!-- Steps -->
+        <div class="steps-number">
+          <a href="#" onclick="closePopup()"> &#10006;</a>
+          <span class="steps">Step 1 of 8</span>
+        </div>
+
+        <!-- Title -->
+        <div class="title-field">
+          <span class="title">Get Started</span>
+          <span class="description">Create your account now</span>
+        </div>
+
+        <!-- Input Field -->
+        <div class="input-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" name="fullname" id="fullname" />
+        </div>
+
+        <div class="input-group">
+          <label for="Nickname">Nickname</label>
+          <input type="text" name="Nickname" id="Nickname" />
+        </div>
+
+        <div class="input-group">
+          <label for="Address">Address</label>
+          <input type="text" name="Address" id="Address" />
+        </div>
+
+        <div class="input-group">
+          <label for="Birthdate">Birthdate</label>
+          <div class="input-field">
+            <select class="option">
+              <option disabled selected>Month</option>
+              <option>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+              <option>June</option>
+              <option>July</option>
+              <option>August</option>
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+              <option>December</option>
+            </select>
+            <select class="option">
+              <option disabled selected>Day</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>26</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+            <select class="option">
+              <option disabled selected>Year</option>
+              <option>1990</option>
+              <option>1991</option>
+              <option>1992</option>
+              <option>1993</option>
+              <option>1994</option>
+              <option>1995</option>
+              <option>1996</option>
+              <option>1997</option>
+              <option>1998</option>
+              <option>1999</option>
+              <option>2000</option>
+              <option>2001</option>
+              <option>2002</option>
+              <option>2003</option>
+              <option>2004</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <div class="BMI">
+            <label for="Height">Height</label>
+            <label for="Weight">Weight</label>
+          </div>
+        </div>
+        <div class="">
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+
+      <div class="form-step">
+        <!-- Steps -->
+        <div class="steps-number">
+          <a href="#" class="btn-prev""> &#10006;</a>
+          <span class="steps">Step 2 of 8</span>
+        </div>
+
+        <!-- Title -->
+        <div class="title-field">
+          <span class="title">Verification</span>
+          <span class="description"
+            >We need to verify your email and<br />
+            phone number for registration</span
+          >
+        </div>
+
+        <!-- Input Field -->
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+          <button type="button" class="btn-verify">Verify</button>
+          <a href="#" class="code">Didn't recieve a code?</a>
+        </div>
+
+        <div class="input-group">
+          <label for="cellphone-number">Cellphone Number</label>
+          <input type="number" name="cellphone-number" id="cellphone-number" >
+          <button type="button" class="btn-verify">Verify</button>
+          <a href="#" class="code">Didn't recieve a code?</a>
+        </div>
+
+        <div class="input-group">
+          <label for="Facebook-account">Facebook account</label>
+          <input type="tetx" name="Facebook-account" id="Facebook-account" />
+        </div>
+
+        <div class="">
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

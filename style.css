@@ -24,6 +24,12 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+.form-step {
+  display: none;
+  transform-origin: top;
+  animation: animate 0.5s;
+}
+
 .container {
   position: relative;
   width: 693px;
@@ -705,5 +711,16 @@ svg:hover {
 @media (max-width: 550px) {
   form .fields .input-field {
     width: 100%;
+  }
+}
+
+@keyframes animate {
+  from {
+    transform: scale(1, 0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
   }
 }
